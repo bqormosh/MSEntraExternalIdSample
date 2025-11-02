@@ -28,6 +28,7 @@ namespace ExternalIDSample.Controllers
         public IActionResult Secure()
         {
             return View();
+
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
